@@ -71,7 +71,7 @@ Router(config-if)#ip address 30.1.1.2 255.0.0.0
 Şimdi OSPF yapılandırmalarını yapalım:
 
 
-#OSPF
+# OSPF
 
 ## Ankara Router
 ```
