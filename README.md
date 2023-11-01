@@ -106,6 +106,12 @@ Router(config-router)#network 192.168.30.0 0.0.0.255 area 0 // iç networkü tan
 Router(config-router)#network 30.1.1.2 0.255.255.255 area 0 // İstanbulla iletşimde olan dış networkü tanıtıyoruz
 Router(config-router)#
 ```
+**BİLGİLENDİRME:** İç ve dış network'ü tanımlarken fark ettiyseniz "0.0.0.255" ve "0.255.255.255" değerlerini girdiğimizi gördünüz. Bunu şöyle hesaplıyoruz: Subnet mask'ın tam hali nedir? 255.255.255.255 karşı tanımlayacağımız network'ün subnet mask'ı 255.255.255.0 bunların ikisini alıp çıkarıyoruz ve ortaya "0.0.0.255" sonucu çıkıyor.
+
+
+
+
+
 
 
 ## Tracert İşlemi
