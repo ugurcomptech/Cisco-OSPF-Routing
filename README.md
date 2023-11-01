@@ -108,6 +108,7 @@ Router(config-router)#
 ```
 **BİLGİLENDİRME:** İç ve dış network'ü tanımlarken fark ettiyseniz "0.0.0.255" ve "0.255.255.255" değerlerini girdiğimizi gördünüz. Bunu şöyle hesaplıyoruz: Subnet mask'ın tam hali nedir? 255.255.255.255 karşı tanımlayacağımız network'ün subnet mask'ı 255.255.255.0 bunların ikisini alıp çıkarıyoruz ve ortaya "0.0.0.255" sonucu çıkıyor.
 
+![image](https://github.com/ugurcomptech/Cisco-OSPF-Routing/assets/133202238/97895a0a-3281-41e0-9fe8-d4657c728474)
 
 
 
