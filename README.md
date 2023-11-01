@@ -96,7 +96,7 @@ Router(config-router)#network 30.1.1.1 0.255.255.255 area 0 // İzmirle iletişi
 Router(config-router)#
 ```
 
-## izmir Router
+## İzmir Router
 ```
 Router>enable
 Router#configure terminal
@@ -106,5 +106,18 @@ Router(config-router)#network 192.168.30.0 0.0.0.255 area 0 // iç networkü tan
 Router(config-router)#network 30.1.1.2 0.255.255.255 area 0 // İstanbulla iletşimde olan dış networkü tanıtıyoruz
 Router(config-router)#
 ```
+
+
+## Tracert İşlemi
+
+Ping atınca hangi ağ yoludan geçtiğine bakalım:
+
+![image](https://github.com/ugurcomptech/Cisco-OSPF-Routing/assets/133202238/e0cbce0d-5013-4130-b201-70121c3a404c)
+
+
+## Ping İşlemi
+
+
+https://github.com/ugurcomptech/Cisco-OSPF-Routing/assets/133202238/04067d69-3bb8-4a7b-9bd6-b82130fe706c
 
 
