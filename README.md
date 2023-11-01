@@ -20,3 +20,28 @@
   - **Ip Adres:** 192.168.10.10
   - **Ağ Maskesi:** 255.255.255.0
   - **Ağ Geçidi:** 192.168.10.1
+
+
+
+Şimdi Routerları yapılandıralım:
+
+```bash
+Router>enable
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#interface gigabitEthernet 0/0
+Router(config-if)#ip address 10.1.1.1 255.0.0.0
+Router(config-if)#
+```
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/ugurcomptech/Cisco-OSPF-Routing/assets/133202238/b850e1d8-8aad-4922-b224-3748e663dfaa)
