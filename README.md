@@ -23,19 +23,32 @@
 
 
 
-Şimdi Routerları yapılandıralım:
+Şimdi Routerların iç ve dış networkünü yapılandıralım:
+
+## Ankara Router
+```
+Router>enable
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#interface gigabitEthernet 0/0
+Router(config-if)#ip address 192.168.10.1 255.255.255.0
+Router(config-if)#exit
+Router(config)interface serial 0/1/0
+Router(config-if)#ip address 10.1.1.1 255.0.0.0
+```
+
+## İstanbul Router 
 
 ```
 Router>enable
 Router#configure terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
 Router(config)#interface gigabitEthernet 0/0
-Router(config-if)#ip address 10.1.1.1 255.0.0.0
-Router(config-if)#
+Router(config-if)#ip address 192.168.20.1 255.255.255.0
+Router(config-if)#exit
+Router(config)interface serial 0/1/0
+Router(config-if)#ip address 10.1.1.2 255.0.0.0
 ```
-
-
-
 
 
 
