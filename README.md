@@ -74,13 +74,34 @@ Router>enable
 Router#configure terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
 Router(config)#router ospf  100
-Router(config-router)#network 192.168.10.0 0.0.0.255 area 0 //iç networkü tanıtıyoruz
-Router(config-router)#network 10.1.1.1 0.255.255.255 area 0 // dış networkü tanıtıyoruz
+Router(config-router)#network 192.168.10.0 0.0.0.255 area 0 // iç networkü tanıtıyoruz
+Router(config-router)#network 10.1.1.1 0.255.255.255 area 0 // İstanbulla iletşimde olan dış networkü tanıtıyoruz
 Router(config-router)#
 ```
 
+## İstanbul Router
+```
+Router>enable
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf  100
+Router(config-router)#network 192.168.20.0 0.0.0.255 area 0 // iç networkü tanıtıyoruz
+Router(config-router)#network 10.1.1.2 0.255.255.255 area 0 // İstanbulla iletişimde olan dış networkü tanıtıyoruz
+Router(config-router)#
+Router(config-router)#network 30.1.1.1 0.255.255.255 area 0 // İzmirle iletişimde olan dış networkü tanıtıyoruz
+Router(config-router)#
+```
 
-
+## izmir Router
+```
+Router>enable
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf  100
+Router(config-router)#network 192.168.30.0 0.0.0.255 area 0 // iç networkü tanıtıyoruz
+Router(config-router)#network 30.1.1.2 0.255.255.255 area 0 // İstanbulla iletşimde olan dış networkü tanıtıyoruz
+Router(config-router)#
+```
 
 
 
