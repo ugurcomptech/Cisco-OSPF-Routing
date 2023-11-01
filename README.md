@@ -25,7 +25,7 @@
 
 Şimdi Routerları yapılandıralım:
 
-```bash
+```
 Router>enable
 Router#configure terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
