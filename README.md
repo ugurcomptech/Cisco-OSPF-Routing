@@ -16,7 +16,7 @@
   - **Ağ Geçidi:** 192.168.10.1
 
 
- - **İzmir Network:**
+- **İzmir Network:**
   - **Ip Adres:** 192.168.10.10
   - **Ağ Maskesi:** 255.255.255.0
   - **Ağ Geçidi:** 192.168.10.1
