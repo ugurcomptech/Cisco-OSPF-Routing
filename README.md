@@ -65,8 +65,13 @@ Router(config)interface serial 0/1/1
 Router(config-if)#ip address 30.1.1.2 255.0.0.0
 ```
 
+![image](https://github.com/ugurcomptech/Cisco-OSPF-Routing/assets/133202238/873b6ff4-c54d-42cd-a622-8cedc31d28bb)
+
 
 Şimdi OSPF yapılandırmalarını yapalım:
+
+
+#OSPF
 
 ## Ankara Router
 ```
@@ -103,5 +108,3 @@ Router(config-router)#
 ```
 
 
-
-![image](https://github.com/ugurcomptech/Cisco-OSPF-Routing/assets/133202238/b850e1d8-8aad-4922-b224-3748e663dfaa)
