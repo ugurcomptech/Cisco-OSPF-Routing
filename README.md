@@ -117,7 +117,7 @@ Router(config-router)#
 
 ## Tracert İşlemi
 
-Ping atınca hangi ağ yoludan geçtiğine bakalım:
+Ping atınca hangi ağ yollarından geçtiğine bakalım:
 
 ![image](https://github.com/ugurcomptech/Cisco-OSPF-Routing/assets/133202238/e0cbce0d-5013-4130-b201-70121c3a404c)
 
